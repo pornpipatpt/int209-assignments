@@ -23,8 +23,7 @@ Move slide01.txt inside wipcamp12 to newslide.txt inside wipcamp13
 Delete wipcamp12 and wipcamp13
 
 ```bash
-mkdir wipcamp12
-mkdir programmer,website,network,ui-ux
+mkdir -p wipcamp12/{programer,website,network,ux-ui}
 touch wipcamp12/slide01.txt
 cp wipcamp12/slide01.txt wipcamp12/slide02.txt
 cp wipcamp12/slide01.txt wipcamp12/slide03.txt
